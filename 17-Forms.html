@@ -1,0 +1,29 @@
+<form>
+action="" method="get" enctype="multipart/form-data">
+    <h1>Digite seu endereço</h1>
+    <label>
+           Rua:
+           <input type="text" name="rua"autocomplete="street-address"/>
+    </label>
+    <label>
+        Numero:
+        <input type="number" name="numero"/>
+ </label>
+ <label>
+    Email:
+    <input type="email" name="email"/>
+</label>
+<label>
+    foto:
+    <input type="file" name="arquivo"/>
+</label>
+ <button type="submit">Enviar dados</button>
+ <button type="reset">Reset</button>
+
+</form> 
+
+<p>o "submit" sabe que tem q enviar todos os dados ></p>
+<p>o "action" é usado para enviar os dados quando tiver o "submit"</p>
+<p>o tipo "get" enviar dados pelo URL para servidor</p>
+<p>tambem tem o method "post" dados por debaixo dos panos</p>
+<p>quando o input for "file" colocar o "enctype coloca multipart"pois ele vai liberar o maior numero de formatos de arquivos</p>

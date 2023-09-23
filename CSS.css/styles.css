@@ -1,0 +1,55 @@
+
+H1
+{color: red;
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 5px 5px 10px red;
+
+}
+p
+{color: green;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+
+.box
+{
+    width:  50px;
+    height: 50px;
+    background:#0000FF;
+    margin: 20px 20px 10px;
+    padding: 10px 20px;
+}
+.box-2
+{
+    width:  50px;
+    height: 50px;
+    background:#1C1C1C;
+    padding: 20px 30px;
+    margin:10px
+    
+}
+
+*{
+    box-sizing:border-box; /*ela define o tamanho do width/height dependendo do que adicione na imagem
+    mantem a mesma proporção,ja o "content-box" expande tudo*/
+}
+.box-1
+{
+    width:  100px;
+    height: 100px;
+    background: #FF1493;
+    padding: 20px;
+    border: 20px solid blue;
+
+}
